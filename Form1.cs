@@ -36,7 +36,7 @@ namespace NameCard_OpenCV
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("시작");
+            //테스트
             pictureBox1.Image = no_image;
             pictureBox2.Image = no_image;
             pictureBox3.Image = no_image;
