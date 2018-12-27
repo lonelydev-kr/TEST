@@ -36,14 +36,13 @@ namespace NameCard_OpenCV
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("시작");
             pictureBox1.Image = no_image;
             pictureBox2.Image = no_image;
             pictureBox3.Image = no_image;
             pictureBox4.Image = no_image;
             pictureBox5.Image = no_image;
             pictureBox6.Image = no_image;
-
-
 
             string sDirPath;
             sDirPath = Application.StartupPath + "\\namecard_img";
@@ -261,7 +260,7 @@ namespace NameCard_OpenCV
 
         private void Save_Button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("저장 완료", "알림" );
+            MessageBox.Show("저장 완료", "알림");
         }
 
         private void Update_Button_Click(object sender, EventArgs e)
